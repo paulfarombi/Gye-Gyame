@@ -56,7 +56,9 @@
 .nav-group ul li a:hover{
     color: white;
 }
-
+.fa-solid{
+    padding-right: 10px;
+  }
 /* Hero Section */
 .hero{
     background-image: url(./Images/Gye-Gyame-banner1.png);
@@ -214,4 +216,8 @@
   .footer .right-footer .media-icons ul li a{
     color: white;
     text-decoration: none;    
+  }
+  
+  .fa-brands{
+    padding-right: 10px;
   }
