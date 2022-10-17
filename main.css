@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.navbar{
+    background-color: #21be5b;
+    color: white;
+}
+
+.container{    
+    font-size: 20px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+.container .logo{    
+    font-size: 20px;
+    display: inline-flex;
+}
+
+.logo{
+    display: inline;
+    padding-left: 30px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.logoname{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.nav-group{
+    float: right;
+    padding-top: 30px;
+}
+.nav-group ul li{
+    float: left;
+    list-style: none;
+    padding-right: 45px;
+}
+
+.nav-group ul li a{
+    color: rgba(212, 212, 226, 0.905);
+    text-decoration: none;
+}
+.nav-group a.current{
+    color: white;
+}
+.nav-group ul li a:hover{
+    color: white;
+}
+
+/* Hero Section */
+.hero{
+    background-image: url(./Images/Gye-Gyame-banner1.png);
+    background-position: no-repeat center center/cover;
+    height: 520px;
+}
+/* Below Hero Section */
+.b-hero{
+    background-color: #313335;    
+    height: 130px;   
+    font-size: 20px; 
+    cursor: pointer;
+    text-align: center;
+    padding: 55px;
+}
+
+.b-hero a{
+  background: #313335;
+  margin-top: 40px;
+  padding: 20px 20px;
+  color: white;
+  text-decoration: none;
+}
+.b-hero a:hover{
+  color: white;
+  background-color: #21be5b;
+}
+.b-hero h3{
+    text-align: center;
+    
+    color: white;
+    font-size: 22px;
+}
+.b-hero-main{    
+    padding: 54px 0;
+}
+
+/* Info Section */
+.info{
+      text-align: center;
+      background-color: #21be5b;    
+      color: white;
+      padding: 70px;
+      height: 800px;
+}
+
+  .info h2{
+  line-height: 3rem;       
+      word-spacing: 0.5rem;
+      font-size: 40px;
+      padding-bottom: 70px;
+  }
+  
+  .info p{
+      margin: 0 150px;
+      font-size: 20px;
+      padding-bottom: 45px;
+  }
+  /* Features Section */
+  .box{
+      padding-top: 20px;
+      /* padding 0 20px; */
+      float: left;
+      width: 33.33%;
+      /* padding: 50px; */
+      text-align: center;    
+  }
+  .box p{
+      font-size: 20px;
+      padding: 0 45px;
+      margin: 0;
+      text-align: justify;
+  }
+  
+  /* Call to Action session */
+  #cta{
+      height: 450px;
+  }
+  .cta-img{
+      background: url(Images/IMG-20221013-WA0007.jpg) no-repeat center center/cover;
+      float: right;
+      width: 50%;
+      min-height: 100%;
+  }
+  .cta{
+      background-color: #fff;
+      color: #313335;
+  }
+  .cta h3{
+    text-align: center;
+      padding: 80px 30px;
+      font-size: 30px;
+  }
+  .cta .cta-info{
+      width: 50%;
+      padding-left:200px;
+      padding-right: 100px;      
+      padding-bottom: 10px;
+      font-size: 18px;
+      /* text-align: center; */
+      display: inline-block;
+  }   
+    
+  .cta .cta-btn {
+      float: right;
+      font-size: 20px;
+      color: white;      
+      margin-top: 30px;
+      margin-right: 120px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+
+  .cta .cta-btn a{    
+    background: #21be5b;
+    padding: 13px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .cta .cta-btn a:hover{
+    color: #21be5b;
+    background-color: #313335;
+  }
+
+  /* Footer Section */
+  .footer{
+    background-color: #313335;
+    color: white;
+    height: 250px;
+    padding-top: 80px;    
+  }
+
+  .footer .left-footer{
+    float: left;
+    width: 50%;
+    padding-left: 220px;
+    padding-right: 100px;
+    font-size: 18px;
+  }
+
+  .footer .right-footer{
+    float: right;
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 220px;    
+    font-size: 18px;
+  }
+
+  .footer .right-footer ul li{
+    list-style: none;
+    padding-right: 10px;
+  }
+
+  .footer .right-footer .media-icons ul li a{
+    color: white;
+    text-decoration: none;    
+  }
